@@ -6,11 +6,11 @@ import AppProviders from './context'
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <AppProviders>
       <App />
-    </AppProviders>
-  </React.StrictMode>,
+    </AppProviders>,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 
